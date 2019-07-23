@@ -11,7 +11,7 @@ ext_modules = [
         '_mask',
         sources=['maskApi.c', '_mask.pyx'],
         include_dirs=[np.get_include()],
-        extra_compile_args=['-Wno-cpp', '-Wno-unused-function', '-std=c99'],
+        extra_compile_args=['-std=c99'],
     )
 ]
 
